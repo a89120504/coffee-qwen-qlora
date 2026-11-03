@@ -1,0 +1,47 @@
+# Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+unsloth_compiled_cache/
+*.egg-info/
+build/
+dist/
+
+# Local datasets and model artifacts; keep preparation instructions
+/data/*
+!/data/README.md
+/models/*
+!/models/README.md
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Generated output and duplicate presentation copies
+/outputs/
+/*.pptx
+/results/*.pptx
+*.log
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+credentials.json
+token.json
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

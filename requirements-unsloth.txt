@@ -1,0 +1,3 @@
+# Optional backend; verify platform compatibility before enabling USE_UNSLOTH.
+-r requirements.txt
+unsloth
